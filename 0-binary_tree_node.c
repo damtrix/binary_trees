@@ -20,7 +20,7 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
     {
         return (NULL);
     }
-    
+
     /* assign values to the properties of the node */
     new->parent = parent;
     new->n = value;
