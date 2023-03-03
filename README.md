@@ -1,34 +1,31 @@
-![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
+				BINARY TREES
+Trees are simply nodes connected together.
+Binary tree is a kind of data structure used for storage purposes.
+Each node of a binary tree can only have a maximum of two nodes called the children.
+A simple binary tree consists of the ROOT, PATH AND CHILD nodes.
+The root node is the node at the top of the tree. A tree can only have one root node and one path from the root node to any other node.
+The path is the sequence of nodes along the edges of a tree.
+The child node is the node below a given node connected by its edge downward.
+The child node is of two types - The LEFTCHILD and The RIGHTCHILD.
+According to the Binary Search Tree Representation the rightchild node is the node with its value greater than the value of its parent node.
+Meanwhile the Parent node is any node except the root node with one edge upward. Leaf node is the node without any child node, that is, the last or tail node at the end of every binary tree.
+Subtree is the descendants of a node.
+Visiting is all about checking the value of a node when control is on the node.
+Traversing is all about passing through nodes in a specific order.
 
-# 0x1D. C - Binary trees
+Binary Search Tree(BST) has basic operations which include:
+Insert: inserting an element in a tree or creating a tree.
+Search: searching for an element in a tree.
+Preorder Traversal: traversing a tree in a pre-order way.
+Inorder Traversal: traversing a tree in an in-order way.
+Postorder Traversal: traversing a tree in a post-order way.
 
-## About
+Insert Operation: The first insert operation in a tree is to create a tree. To insert an element in a tree first locate its location. Search from the root node and if the value you are looking for is less than the root node value, search for the empty location in the left subtree or node and insert the data or element. Otherwise, search for the empty location in the right subtree or node and insert the element or data.
 
-- This repository consists of a project on Binary trees (**low level programming**) done with [ALX Africa](https://www.alxafrica.com/) Full stack Software Engineering course in partnership with [Holberton School](https://www.holbertonschool.com/) by [th3_gr00t](https://th3-gr00t.tk/).
+Search Operation: To perform a search for an element in a tree, start from the root node. If the value of the element being searched for is less than the that of the root node search for the element in the left subtree or node. Otherwise, search for the elment in the right subtree or node.
 
-## Resource
+Preorder Traversal: This type of traversal method is a situation whereby the root node is visited first, then the left subtree or node and finally to the right subtree or node.
 
-- [Binary tree](https://en.wikipedia.org/wiki/Binary_tree) (note the first line: **_Not to be confused with B-tree._**)
-- [Data Structure and Algorithms - Tree](https://www.tutorialspoint.com/data_structures_algorithms/tree_data_structure.htm)
-- [Tree Traversal](https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm)
-- [Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree)
-- [Data structures: Binary Tree](https://www.youtube.com/watch?v=H5JubkIy_p8)
+Inorder Operation: This type of traversal method is a situation whereby the left subtree or node is visited first, then the root node and finally the right subtree or node.
 
-<details>
-<summary>Data structures</summary><br>
-<a href='https://postimg.cc/pyMqBykB' target='_blank'><img src='https://i.postimg.cc/nVCgpDDN/image.png' border='0' alt='image'/></a>
-<ul>
-  <li>Links from screenshot
-  <ul>
-      <li><a href="https://github.com/holbertonschool/0x1C.c">Print function</a></li>
-  </ul>
-  </li>
-</ul>
-</details>
-
-## Tasks
-
-<details>
-<summary><a href="./0-binary_tree_node.c">0. New node</a></summary><br>
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/c1hCyPfF/image.png' border='0' alt='image'/></a>
-</details>
+Postorder Operation: This type of traversal method is a situation whereby the left subtree or node is visited first, then the right subtree or node and finally the root.
